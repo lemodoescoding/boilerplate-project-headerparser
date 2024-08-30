@@ -10,7 +10,7 @@ const getInfoUser = (req, res) => {
   }
 
   return res.json({
-    "ipAddress": ipAddress,
+    "ipaddress": ipAddress,
     "language": lang,
     "software": uAgent
   })
